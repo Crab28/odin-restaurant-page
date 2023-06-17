@@ -1,0 +1,23 @@
+{
+  "name": "odin-restaurant-page",
+  "version": "1.0.0",
+  "description": "Odin project: A simple restaurant homepage using only JavaScript to generate the entire content of the website. Styling will still be done in a separate css file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Crab28/odin-restaurant-page.git"
+  },
+  "author": "Crab",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Crab28/odin-restaurant-page/issues"
+  },
+  "homepage": "https://github.com/Crab28/odin-restaurant-page#readme",
+  "devDependencies": {
+    "webpack": "^5.87.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
