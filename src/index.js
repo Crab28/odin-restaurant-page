@@ -1,4 +1,5 @@
 import './reset.css';
 import './style.css';
+import { createHomeContent } from './home';
 
-console.log('Works!');
+createHomeContent();
