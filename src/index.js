@@ -34,5 +34,4 @@ function initializeSite() {
     createLinkListeners();
 }
 
-
 initializeSite();

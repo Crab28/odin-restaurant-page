@@ -205,4 +205,26 @@ footer {
     footer {
         height: 100px;
     }
+
+    .menu-list {
+        margin: 0 10px;
+    }
+
+    .menu-list li {
+        flex-direction: column;
+        width: 100%;
+        justify-content: initial;
+        align-items: center;
+        padding: 30px 0;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .menu-list li:nth-child(2n) {
+        flex-direction: column;
+    }
+
+    .menu-list .item-info {
+        padding-bottom: 20px;
+    }
 }
