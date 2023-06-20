@@ -5,6 +5,7 @@ import { createMenuContent } from './menu';
 import { createContactContent } from './contact';
 
 function createContent(linkTextContent) {
+    window.scrollTo(0, 0);
     const content = document.getElementById('content');
     content.innerHTML = '';
 
