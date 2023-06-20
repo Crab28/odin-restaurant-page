@@ -130,4 +130,8 @@ footer {
     #banner .mobile-hero {
         display: initial;
     }
+
+    footer {
+        height: 100px;
+    }
 }
