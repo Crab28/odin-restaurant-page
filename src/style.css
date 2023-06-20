@@ -1,0 +1,133 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #fcfcfc;
+}
+
+#content {
+    width: 100%;
+    min-height: 100vh;
+    padding-bottom: 1rem;
+}
+
+.header-background {
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    top: 0;
+    background-color: #eee;
+    z-index: 100;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.623);
+}
+
+.header {
+    margin: 0 auto;
+    height: 100%;
+    max-width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.header #logo {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.header nav {
+    height: 100%;
+}
+
+.header nav ul {
+    display: flex;
+    height: 100%;
+}
+
+.header nav ul li {
+    padding: 0 15px;
+    cursor: pointer;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header nav ul li:hover {
+    background-color: #ccc;
+}
+
+#banner {
+    position: relative; 
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.623);
+}
+
+#banner::before {    
+    content: "";
+    background-image: url('./res/ting-tian-_79ZJS8pV70-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    position: relative;
+    color: #000;  
+    font-size: 4rem;
+    line-height: 0.9;
+    text-align: center;
+}
+
+#banner .mobile-hero {
+    display: none;
+}
+
+.content-body {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.content-body h3 {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+}
+
+.content-body p {
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #333;
+    color: #eee;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+@media (max-width: 600px) {
+    #banner {
+        height: 700px;
+    }
+
+    #banner .desktop-hero {
+        display: none;
+    }
+
+    #banner .mobile-hero {
+        display: initial;
+    }
+}
