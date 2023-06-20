@@ -118,6 +118,77 @@ footer {
     padding: 0 20px;
 }
 
+#menu {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+#menu h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.menu-list {
+    background-color: #333;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    box-shadow: 1px 5px 15px #33333383;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 15px;
+    color: #eee;
+}
+
+.menu-list li {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 50px 0;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.menu-list .item-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    padding: 0 20px;
+    max-width: 400px;
+}
+
+.menu-list .item-info h4 {
+    font-size: 1.4rem;
+}
+
+.menu-list .item-info p {
+    line-height: 1.2rem;
+}
+
+.menu-list li:nth-child(2n) {
+    flex-direction: row-reverse;
+}
+
+.menu-list .item-img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+}
+
+.menu-list #item-img-1 {
+    background-image: url('./res/ca-creative-bpPTlXWTOvg-unsplash.jpg');
+}
+.menu-list #item-img-2 {
+    background-image: url('./res/david-todd-mccarty-OrTjocYe1b4-unsplash.jpg');
+}
+.menu-list #item-img-3 {
+    background-image: url('./res/farhad-ibrahimzade-HNmcgpzPHag-unsplash.jpg');
+}
+
 @media (max-width: 600px) {
     #banner {
         height: 700px;
